@@ -3974,3 +3974,54 @@ span.text {
 
 
 } */
+  /* Social Icons Styling */
+  .social-icons {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.wrappeer {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+    color: white;
+    font-size: 18px;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    background: #555;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 55px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.facebook { background: #1877F2; }
+.instagram { background: #E4405F; }
+.twitter { background: #1DA1F2; }
+.github { background: #333; }
+.linkedin { background: #0077B5; }
